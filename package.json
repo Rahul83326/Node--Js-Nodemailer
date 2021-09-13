@@ -1,0 +1,25 @@
+{
+  "name": "nodemailerdemo",
+  "version": "1.0.0",
+  "description": "change gmail user name and password",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudhanshu647/nodejs-mailsending.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sudhanshu647/nodejs-mailsending/issues"
+  },
+  "homepage": "https://github.com/sudhanshu647/nodejs-mailsending#readme"
+}
