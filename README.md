@@ -1,6 +1,6 @@
 # nodejs-mailsending
 
-# git clone https://github.com/sudhanshu647/nodejs-mailsending.git
+# git clone https://github.com/Rahul83326/Node--Js-Nodemailer.git
 
 # npm i
 
