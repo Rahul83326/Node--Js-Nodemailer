@@ -20,8 +20,8 @@ const transporter = nodemailer.createTransport({
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-        user: 'rahulthangamani2002@gmail.com',
-        pass: '8608340306',
+        user: '<yourmail>@gmail.com',
+        pass: 'xxxxxxxxx',
     },
     tls: {
         rejectUnauthorized: false
@@ -32,7 +32,7 @@ const transporter = nodemailer.createTransport({
 route.post('/text-mail', (req, res) => {
     const {to, subject, text } = req.body;
     const mailData = {
-        from: 'rahulthangamani2002@gmail.com',
+        from: '<yourmail>@gmail.com',
         to: to,
         subject: subject,
         text: text,
@@ -51,7 +51,7 @@ route.post('/text-mail', (req, res) => {
 route.post('/attachments-mail', (req, res) => {
     const {to, subject, text } = req.body;
     const mailData = {
-        from: 'rahulthangamani19402@gmail.com',
+        from: '<yourmail>@gmail.com',
         to: to,
         subject: subject,
         text: text,
